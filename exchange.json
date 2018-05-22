@@ -1,0 +1,1629 @@
+[
+  [
+    {
+      "author": "Daniel Glen <glend@mail.nih.gov>",
+      "description": "AFNI-based brain warping based on D99 Macaque Atlas warp scripts, which use AFNI functions (AFNI_2011_12_21_1014) to align a template and segmentation to the native space of an individual macaque in its native space. The output includes the native aligned to the template dataset and vice versa. It also creates surfaces for structures in the individual native space and an approximate surface for the whole brain. All surfaces are saved in GIFTI format, and volumes are in AFNI format. This Gear will convert output volume files to NIfTI format.",
+      "label": "AFNI: Brain Warp",
+      "license": "GPL-2.0",
+      "maintainer": "Carlos Correa <cgc@stanford.edu>",
+      "name": "afni-brain-warp",
+      "source": "https://github.com/scitran-apps/afni-brain-warp",
+      "url": "https://afni.nimh.nih.gov/pub/dist/atlases/macaque/macaqueatlas_1.2a/AFNI_scripts/",
+      "version": "0.0.1"
+    }
+  ],
+  [
+    {
+      "author": "Jason D. Yeatman <jyeatman@uw.edu>",
+      "description": "AFQ was designed [by Jason D. Yeatman, et al.] to generate Tract Profiles of tissue properties for major fiber tracts in healthy and diseased brains. Online documentation can be found at: https://github.com/yeatmanlab/AFQ/wiki.",
+      "label": "AFQ: Automated Fiber Quantification",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "afq",
+      "source": "https://github.com/scitran-apps/afq",
+      "url": "https://github.com/yeatmanlab/afq",
+      "version": "0.0.2"
+    }
+  ],
+  [
+    {
+      "author": "Jason D. Yeatman <jyeatman@uw.edu>",
+      "description": "AFQ was designed [by Jason D. Yeatman, et al.] to generate Tract Profiles of tissue properties for major fiber tracts in healthy and diseased brains. Online documentation can be found at: https://github.com/yeatmanlab/AFQ/wiki.",
+      "label": "AFQ: Automated Fiber Quantification (DEMO)",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "afq-demo",
+      "source": "https://github.com/flywheel-apps/afq-demo",
+      "url": "https://github.com/yeatmanlab/afq",
+      "version": "0.2.0"
+    }
+  ],
+  [
+    {
+      "author": "Jason D. Yeatman, et. al, VISTA Lab, FMRIB Software Laboratory",
+      "cite": "Yeatman J.D., Dougherty R.F., Myall N.J., Wandell B.A., Feldman H.M. (2012). Tract Profiles of White Matter Properties: Automating Fiber-Tract Quantification. PLoS One.; M. Jenkinson, C.F. Beckmann, T.E. Behrens, M.W. Woolrich, S.M. Smith. FSL. NeuroImage, 62:782-90, 2012",
+      "description": "This gear contains a 3-step pipeline designed to run AFQ. The first step is optional, and will merge two diffusion datasets using FSLMERGE. The second step is data preprocessing using DTIINIT, from the VISTA Lab, Stanford University. The final step is the Automated Fiber Quantification (AFQ), which generates tract profiles of tissue properties for major fiber tracts in the brain.",
+      "label": "AFQ Pipeline: Automated Fiber Quantification Pipeline",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "afq-pipeline",
+      "source": "https://github.com/scitran-apps/afq-pipline",
+      "url": "https://github.com/yeatmanlab/afq",
+      "version": "1.0.2"
+    },
+    {
+      "author": "Jason D. Yeatman, et. al, VISTA Lab, FMRIB Software Laboratory",
+      "cite": "Yeatman J.D., Dougherty R.F., Myall N.J., Wandell B.A., Feldman H.M. (2012). Tract Profiles of White Matter Properties: Automating Fiber-Tract Quantification. PLoS One.; M. Jenkinson, C.F. Beckmann, T.E. Behrens, M.W. Woolrich, S.M. Smith. FSL. NeuroImage, 62:782-90, 2012",
+      "description": "This gear contains a 3-step pipeline designed to run AFQ. The first step is optional, and will merge two diffusion datasets using FSLMERGE. The second step is data preprocessing using DTIINIT, from the VISTA Lab, Stanford University. The final step is the Automated Fiber Quantification (AFQ), which generates tract profiles of tissue properties for major fiber tracts in the brain.",
+      "label": "AFQ Pipeline: Automated Fiber Quantification Pipeline",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "afq-pipeline",
+      "source": "https://github.com/scitran-apps/afq-pipline",
+      "url": "https://github.com/yeatmanlab/afq",
+      "version": "1.0.1"
+    },
+    {
+      "author": "Jason D. Yeatman, et. al, VISTA Lab, FMRIB Software Laboratory",
+      "cite": "Yeatman J.D., Dougherty R.F., Myall N.J., Wandell B.A., Feldman H.M. (2012). Tract Profiles of White Matter Properties: Automating Fiber-Tract Quantification. PLoS One.; M. Jenkinson, C.F. Beckmann, T.E. Behrens, M.W. Woolrich, S.M. Smith. FSL. NeuroImage, 62:782-90, 2012",
+      "description": "This gear contains a 3-step pipeline designed to run AFQ. The first step is optional, and will merge two diffusion datasets using FSLMERGE. The second step is data preprocessing using DTIINIT, from the VISTA Lab, Stanford University. The final step is the Automated Fiber Quantification (AFQ), which generates tract profiles of tissue properties for major fiber tracts in the brain.",
+      "label": "AFQ Pipeline: Automated Fiber Quantification Pipeline",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "afq-pipeline",
+      "source": "https://github.com/scitran-apps/afq-pipline",
+      "url": "https://github.com/yeatmanlab/afq",
+      "version": "1.0.0"
+    }
+  ],
+  [
+    {
+      "author": "Jason D. Yeatman, et. al, VISTA Lab, FMRIB Software Laboratory",
+      "cite": "Yeatman J.D., Dougherty R.F., Myall N.J., Wandell B.A., Feldman H.M. (2012). Tract Profiles of White Matter Properties: Automating Fiber-Tract Quantification. PLoS One.; M. Jenkinson, C.F. Beckmann, T.E. Behrens, M.W. Woolrich, S.M. Smith. FSL. NeuroImage, 62:782-90, 2012",
+      "description": "This SDK-enabled Gear is able to take a user-provided acquisition label and automatically find appropriate inputs for the Gear. The Gear runs a 3-step pipeline culminating in a run of AFQ. The first step is optional, and will merge two diffusion datasets using FSLMERGE. The second step is diffusion data preprocessing using DTIINIT. The final step is Automated Fiber Quantification (AFQ), which generates tract profiles of tissue properties for major white matter tracts in the brain.",
+      "label": "AFQ Pipeline SDK: Automated Fiber Quantification Processing Pipeline",
+      "license": "Other",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "afq-pipeline-sdk",
+      "source": "https://github.com/scitran-apps/afq-pipeline-sdk",
+      "url": "https://github.com/yeatmanlab/afq",
+      "version": "1.0.2"
+    },
+    {
+      "author": "Jason D. Yeatman, et. al, VISTA Lab, FMRIB Software Laboratory",
+      "cite": "Yeatman J.D., Dougherty R.F., Myall N.J., Wandell B.A., Feldman H.M. (2012). Tract Profiles of White Matter Properties: Automating Fiber-Tract Quantification. PLoS One.; M. Jenkinson, C.F. Beckmann, T.E. Behrens, M.W. Woolrich, S.M. Smith. FSL. NeuroImage, 62:782-90, 2012",
+      "description": "This SDK Gear will take a user-provided acquisition label and automatically find appropriate inputs for the Gear. The Gear runs a 3-step pipeline designed to run AFQ. The first step is optional, and will merge two diffusion datasets using FSLMERGE. The second step is data preprocessing using DTIINIT. The final step the Automated Fiber Quantification (AFQ), which generates tract profiles of tissue properties for major fiber tracts in the brain.",
+      "label": "AFQ Pipeline SDK: Automated Fiber Quantification Processing Pipeline",
+      "license": "Other",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "afq-pipeline-sdk",
+      "source": "https://github.com/scitran-apps/afq-pipline-sdk",
+      "url": "https://github.com/yeatmanlab/afq",
+      "version": "1.0.1"
+    },
+    {
+      "author": "Jason D. Yeatman, et. al, VISTA Lab, FMRIB Software Laboratory",
+      "cite": "Yeatman J.D., Dougherty R.F., Myall N.J., Wandell B.A., Feldman H.M. (2012). Tract Profiles of White Matter Properties: Automating Fiber-Tract Quantification. PLoS One.; M. Jenkinson, C.F. Beckmann, T.E. Behrens, M.W. Woolrich, S.M. Smith. FSL. NeuroImage, 62:782-90, 2012",
+      "description": "This SDK Gear will take a user-provided acquisition label and automatically find appropriate inputs for the Gear. The Gear runs a 3-step pipeline designed to run AFQ. The first step is optional, and will merge two diffusion datasets using FSLMERGE. The second step is data preprocessing using DTIINIT. The final step the Automated Fiber Quantification (AFQ), which generates tract profiles of tissue properties for major fiber tracts in the brain.",
+      "label": "AFQ Pipeline SDK: Automated Fiber Quantification Processing Pipeline",
+      "license": "Other",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "afq-pipeline-sdk",
+      "source": "https://github.com/scitran-apps/afq-pipline-sdk",
+      "url": "https://github.com/yeatmanlab/afq",
+      "version": "1.0.0"
+    }
+  ],
+  [
+    {
+      "author": "Bob Dougherty <bobd@stanford.edu>",
+      "description": "Reorient NIfTI data and metadata fields into RAS space by estimating and applying a canonical transform.",
+      "label": "Apply Canonical Transform",
+      "license": "MIT",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "apply-canonical-xform",
+      "source": "https://github.com/scitran-apps/apply-canonical-xform",
+      "url": "https://github.com/vistalab/vistasoft/blob/master/fileFilters/nifti/niftiApplyCannonicalXform.m",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "Syam Gadde <gadde@biac.duke.edu>",
+      "description": "These tools perform QA (quality assurance) calculations and produce images, graphs, and/or XML data as output. fmriqa_phantomqa.pl and fmriqa_generate.pl produce an HTML report with various QA measures. fmriqa_phantomqa.pl was designed for fMRI images of the BIRN stability phantom, and fmriqa_generate.pl has been used for human fMRI data.",
+      "label": "BXH-XCEDE-TOOLS: fMRI QA (v1.11.14-lsb30.x86_64)",
+      "license": "Other",
+      "name": "bxh-xcede-tools-qa",
+      "source": "https://github.com/flywheel-apps/bxh-xcede-tools-qa/",
+      "url": "https://www.nitrc.org/projects/bxh_xcede_tools/",
+      "version": "0.1"
+    }
+  ],
+  [
+    {
+      "author": "Craddock C, Sikka S, Cheung B, et al.",
+      "description": "The Configurable Pipeline for the Analysis of Connectomes C-PAC is a software for performing high-throughput preprocessing and analysis of functional connectomes data using high-performance computers. C-PAC is implemented in Python using the Nipype pipelining library to efficiently combine tools from AFNI, ANTS, and FSL to achieve high quality and robust automated processing. This docker container, when built, is an application for performing participant level analyses. Future releases will include group-level analyses, when there is a BIDS standard for handling derivatives and group models.",
+      "label": "BIDS-APP: C-PAC (Configurable Pipeline for the Analysis of Connectomes)",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "c-pac",
+      "source": "https://github.com/flywheel-apps/c-pac",
+      "url": "https://github.com/BIDS-Apps/CPAC",
+      "version": "0.0.1"
+    }
+  ],
+  [
+    {
+      "author": "Brian Wandell <wandell@stanford.edu>",
+      "description": "This (demo) gear will run an image segmentation algorithm on an anatomical image and generate, from that segmentation, a cortical surface object (OBJ) file.",
+      "label": "Cortex: Build Cortical Surface Object (DEMO)",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <michaelperry@flywheel.io>",
+      "name": "cortex-demo",
+      "source": "https://github.com/flywheel-apps/cortex-demo",
+      "url": "https://en.wikipedia.org/wiki/Wavefront_.obj_file",
+      "version": "0.0.1"
+    }
+  ],
+  [
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.6.0"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.5.0"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.3.6"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.3.5"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.3.4"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.3.3"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.3.2"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.3.1"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.3.0"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.2.0"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Use this gear to initialize BIDS filenames and attributes on all files within a given project.",
+      "label": "BIDS Curation",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "curate-bids",
+      "source": "https://github.com/flywheel-apps/curate-bids",
+      "url": "http://bids.neuroimaging.io/",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "Scientific Transparency (RF Dougherty, K Hahn, R Bowen, G Schaefer, LM Perry)",
+      "description": "DCM-CONVERT uses SciTran's data library (https://github.com/scitran/data) to convert raw DICOM data (zip archive) to NIfTI, Montage, and PNG (screenshot acquisitions) formats. DCM-CONVERT supports Siemens and GE DICOM data.",
+      "label": "SciTran: DCM-CONVERT - DICOM conversion tool",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm-convert",
+      "source": "https://github.com/scitran-apps/dcm-convert",
+      "url": "https://github.com/scitran/data",
+      "version": "1.1.3"
+    },
+    {
+      "author": "Scientific Transparency (RF Dougherty, K Hahn, R Bowen, G Schaefer, LM Perry)",
+      "description": "DCM-CONVERT uses SciTran's data library (https://github.com/scitran/data) to convert raw DICOM data (zip archive) to NIfTI, Montage, and PNG (screenshot acquisitions) formats. DCM-CONVERT supports Siemens and GE DICOM data.",
+      "label": "SciTran: DCM-CONVERT - DICOM conversion tool",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm-convert",
+      "source": "https://github.com/scitran-apps/dcm-convert",
+      "url": "https://github.com/scitran/data",
+      "version": "1.1.2"
+    },
+    {
+      "author": "Scientific Transparency (RF Dougherty, K Hahn, R Bowen, G Schaefer, LM Perry)",
+      "description": "Uses SciTran's data library (https://github.com/scitran/data) to convert raw DICOM data to a Montage. Can be configured to optionally convert data to NIfTI, or PNG (screenshots) format. Supports Siemens or GE DICOM data.",
+      "label": "SciTran: DCM-CONVERT - DICOM conversion tool",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm-convert",
+      "source": "https://github.com/scitran-apps/dcm-convert",
+      "url": "https://github.com/scitran/data",
+      "version": "1.1.1"
+    },
+    {
+      "author": "Scientific Transparency (RF Dougherty, K Hahn, R Bowen, G Schaefer, LM Perry)",
+      "description": "Uses SciTran's data library (https://github.com/scitran/data) to convert raw DICOM data to a Montage. Can be configured to optionally convert data to NIfTI, or PNG (screenshots) format. Supports Siemens or GE DICOM data.",
+      "label": "SciTran: DCM-CONVERT - DICOM conversion tool",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm-convert",
+      "source": "https://github.com/scitran-apps/dcm-convert",
+      "url": "https://github.com/scitran/data",
+      "version": "1.1.0"
+    },
+    {
+      "author": "Scientific Transparency (RF Dougherty, K Hahn, R Bowen, LM Perry)",
+      "description": "Uses SciTran's data library (https://github.com/scitran/data) to convert raw DICOM data to a Montage. Can be configured to optionally convert data to NIfTI, or PNG (screenshots) format. Supports Siemens or GE DICOM data.",
+      "label": "SciTran: dcm-convert - DICOM conversion tool",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm-convert",
+      "source": "https://github.com/scitran-apps/dcm-convert",
+      "url": "https://github.com/scitran/data",
+      "version": "1.0.0"
+    }
+  ],
+  [
+    {
+      "author": "Chris Rorden",
+      "description": "Chris Rorden's dcm2nii (4AUGUST2014 64-bit) is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2nii works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NII: v.4AUGUST2014",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2nii",
+      "source": "https://github.com/scitran-apps/dcm2nii",
+      "url": "https://www.nitrc.org/projects/dcm2nii/",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX (OpenJPEG build, 64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: dcm2nii DICOM to NIfTI converter",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.5.2_1.0.20180328"
+    },
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX (OpenJPEG build, 64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: dcm2nii DICOM to NIfTI converter",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.5.1_1.0.20180328"
+    },
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX (OpenJPEG build, 64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: dcm2nii DICOM to NIfTI converter",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.5.0_1.0.20171215"
+    },
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX (OpenJPEG build, 64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: dcm2nii DICOM to NIfTI converter",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.3.4_1.0.20171215"
+    },
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX version v1.0.20170923 (OpenJPEG build) GCC4.8.4 (64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: v1.0.20170923",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.3.3_1.0.20171215"
+    },
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX version v1.0.20170923 (OpenJPEG build) GCC4.8.4 (64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: v1.0.20170923",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.3.2"
+    },
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX version v1.0.20170923 (OpenJPEG build) GCC4.8.4 (64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: v1.0.20170923",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.3.1"
+    },
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX version v1.0.20170923 (OpenJPEG build) GCC4.8.4 (64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: v1.0.20170923",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.3"
+    },
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX version v1.0.20170821 (OpenJPEG build) GCC4.8.4 (64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: v1.0.20170821",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.2.1"
+    },
+    {
+      "author": "Chris Rorden (@neurolabusc)",
+      "description": "Chris Rorden's dcm2niiX version v1.0.20170818 (OpenJPEG build) GCC4.8.4 (64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: v1.0.20170818",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://github.com/rordenlab/dcm2niix",
+      "version": "0.2"
+    },
+    {
+      "author": "Chris Rorden",
+      "description": "Chris Rorden's dcm2niiX version v1.0.20170130 (64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: v1.0.20170130",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niix",
+      "url": "https://www.nitrc.org/projects/dcm2nii",
+      "version": "0.1.1"
+    },
+    {
+      "author": "Chris Rorden",
+      "description": "Chris Rorden's dcm2niiX version v1.0.20170130 (64-bit Linux). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: v1.0.20170130",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niiix",
+      "url": "https://www.nitrc.org/projects/dcm2nii",
+      "version": "0.1.0"
+    },
+    {
+      "author": "Chris Rorden",
+      "description": "Chris Rorden's dcm2niiX version 6June2016 (64-bit). dcm2niix is a popular tool for converting images from the complicated formats used by scanner manufacturers (DICOM, PAR/REC) to the simple NIfTI format used by many scientific tools. dcm2niix works for all modalities (CT, MRI, PET, SPECT) and sequence types.",
+      "label": "DCM2NIIX: v.6June2016",
+      "license": "BSD-2-Clause",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dcm2niix",
+      "source": "https://github.com/scitran-apps/dcm2niiix",
+      "url": "https://www.nitrc.org/projects/dcm2nii",
+      "version": "0.0.3"
+    }
+  ],
+  [
+    {
+      "author": "Jennifer Reiter <jenniferreiter@invenshure.com>",
+      "description": "This Gear produces a 1GB .txt file.",
+      "label": "Debug File Generator: Creating a 1 GB file",
+      "license": "Other",
+      "maintainer": "Jennifer Reiter <jenniferreiter@invenshure.com>",
+      "name": "debug-generatefile",
+      "source": "https://github.com/flywheel-apps/debug-generatefile",
+      "url": "https://github.com/flywheel-apps/debug-generatefile",
+      "version": "0.0.1"
+    }
+  ],
+  [
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata and determine classification from raw DICOM data. Compatible with Siemens, Philips, and GE DICOMs.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.6.0"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata and determine classification from raw DICOM data. Compatible with Siemens, Philips, and GE DICOMs.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.5.0"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract DICOM header metadata and determine measurement classification. Works with Siemens, Philips, and GE DICOM data.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.4.0"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract DICOM header metadata and determine measurement classification. Works with Siemens, Philips, and GE DICOM data.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.3.3"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract DICOM header metadata and determine measurement classification. Works with Siemens, Philips, and GE DICOM data.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.3.2"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract DICOM header metadata and determine measurement classification. Works with Siemens, Philips, and GE DICOM data.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.3.1"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract DICOM header metadata and determine measurement classification. Works with Siemens, Philips, and GE DICOM data.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.3.0"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract DICOM header metadata and determine measurement classification. Works with Siemens, Philips, and GE DICOM data.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.2.7"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract DICOM header metadata and determine measurement classification. Works with Siemens, Philips, and GE DICOM data.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.2.6"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract DICOM header metadata and determine measurement classification. Works with Siemens, Philips, and GE DICOM data.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.2.5"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract DICOM header metadata and determine measurement classification. Works with Siemens, Philips, and GE DICOM data.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.2.4"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from raw DICOM data from Siemens, Philips, or GE.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.2.3"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from raw DICOM data from Siemens, Philips, or GE.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.2.2"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from raw DICOM data from Siemens, Philips, or GE.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.2.1"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from raw DICOM data from Siemens, Philips, or GE.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.2"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from raw DICOM data from Siemens, Philips, or GE.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.1.9"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from raw DICOM data from Siemens, Philips, or GE.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.1.8"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from raw DICOM data from Siemens, Philips, or GE.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.1.12"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from raw DICOM data from Siemens, Philips, or GE.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.1.11"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from raw DICOM data from Siemens, Philips, or GE.",
+      "label": "SciTran DICOM MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dicom-mr-classifier",
+      "source": "https://github.com/scitran-apps/dicom-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.1.10"
+    }
+  ],
+  [
+    {
+      "author": "Imad Nijim",
+      "description": "The DICOM Send Gear uses DCMTK dcmstoresu to send DICOM data from Flywheel to a DICOM server.  The DICOM server must be reachable from the host of the Flywheel instance.",
+      "label": "DICOM Send",
+      "license": "Other",
+      "maintainer": "support@flywheel.io",
+      "name": "dicom-send",
+      "source": "https://flywheel.io",
+      "url": "http://support.dcmtk.org/docs/storescu.html",
+      "version": "0.9"
+    },
+    {
+      "author": "Imad Nijim",
+      "description": "The DICOM Send Gear uses DCMTK dcmstoresu to send DICOM data from Flywheel to a DICOM server.  The DICOM server must be reachable from the host of the Flywheel instance.",
+      "label": "DICOM Send",
+      "license": "Other",
+      "maintainer": "support@flywheel.io",
+      "name": "dicom-send",
+      "source": "https://flywheel.io",
+      "url": "http://support.dcmtk.org/docs/storescu.html",
+      "version": "0.6.2"
+    }
+  ],
+  [
+    {
+      "author": "Brian Wandell <wandell@stanford.edu>, Michael Perry <lmperry@stanford.edu>",
+      "description": "Find RMSE between the measured and ADC (or dSIG) based on tensor model. Calculate the histogram of differences between dti based predictions (ADC or dSig) with the actual ADC or dSig data. Larger deviations suggest noisier data.",
+      "label": "VISTALAB: DTI Error",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dti-error",
+      "source": "https://github.com/scitran-apps/dtiError/src",
+      "url": "https://github.com/scitran-apps/dtiError",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "VISTA Lab, Stanford University",
+      "description": "VISTALAB's dtiInit (DTI Initialization) runs the VISTASOFT/mrDiffusion pre-processing pipeline on raw DWI data. This Gear allows all dtiInit parameters to be set from within the configuration UI. All outputs are archived in a zip file for easy download. dtiInit.json is saved for easy reference to configuration parameters used at runtime.",
+      "label": "VISTALAB: dtiInit - Diffusion Data Initialization Pipeline",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dtiinit",
+      "source": "https://github.com/scitran-apps/dtiinit",
+      "url": "https://github.com/vistalab/vistasoft/wiki/dwi-Initialization",
+      "version": "0.2.2"
+    },
+    {
+      "author": "Stanford VISTA Lab",
+      "description": "VISTALAB's dtiInit (DTI Initialization) runs the VISTASOFT/mrDiffusion pre-processing pipeline on raw DWI data. This Gear allows all dtiInit parameters to be set from within the configuration UI. All outputs are archived in a zip file for easy download. dtiInit.json is saved for easy reference to configuration parameters used at runtime.",
+      "label": "VISTALAB: dtiInit - Diffusion Data Initialization Pipeline",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "dtiinit",
+      "source": "https://github.com/scitran-apps/dtiinit",
+      "url": "https://github.com/vistalab/vistasoft/wiki/dwi-Initialization",
+      "version": "0.2.1"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "dtiInit (DTI Initialization) runs the VISTASOFT/mrDiffusion pre-processing pipeline on raw DWI data. See: http://white.stanford.edu/newlm/index.php/DTI_Preprocessing for more information regarding the pipeline. This dtiInit gear will output motion-corrected diffusion data (nifti, bval, bvecs) aligned to the first b0 image in the acquisition. It will also calculate FA, MD, RD, and AD maps. Tensors, vector RGB, brain mask, white-matter mask, and white-matter probability maps will also be output. All outputs will be included in a zip file.",
+      "label": "Diffusion Data Initialization Pipeline",
+      "license": "GPL-2.0",
+      "name": "dtiinit",
+      "source": "https://github.com/scitran-apps/dtiinit",
+      "url": "https://github.com/vistalab/vistasoft/wiki",
+      "version": "0.1.2"
+    }
+  ],
+  [
+    {
+      "author": "Stanford VISTA Lab <vistalab.stanford.edu>",
+      "description": "dtiInit (DTI Initialization) runs the VISTASOFT/mrDiffusion pre-processing pipeline on raw DWI data. See: http://white.stanford.edu/newlm/index.php/DTI_Preprocessing for more information regarding the pipeline. This dtiInit gear will output motion-corrected diffusion data (nifti, bval, bvecs) aligned to the first b0 image in the acquisition. It will also calculate FA, MD, RD, and AD maps. Tensors, vector RGB, brain mask, white-matter mask, and white-matter probability maps will also be output.",
+      "label": "Diffusion Data Initialization Pipeline (DEMO)",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <michaelperry@flywheel.io>",
+      "name": "dtiinit-demo",
+      "source": "https://github.com/flywheel-apps/dtiinit-demo",
+      "url": "https://github.com/vistalab/vistasoft/wiki",
+      "version": "0.0.2"
+    }
+  ],
+  [
+    {
+      "author": "GLU <glerma@stanford.edu>",
+      "description": "Extract individual diffusion shells from multi-shell DWI data. Output includes a NIfTI, BVEC, and BVAL file for each diffusion shell found in the data.",
+      "label": "SCITRAN: DWI Split Shells",
+      "license": "MIT",
+      "maintainer": "GLU <glerma@stanford.edu>",
+      "name": "dwi-split-shells",
+      "source": "https://github.com/scitran-apps/dwi-split-shells",
+      "url": "https://github.com/scitran-apps/dwi-split-shells",
+      "version": "1.1.0"
+    },
+    {
+      "author": "GLU <glerma@stanford.edu>",
+      "description": "Extracts individual shells from multi-shell DWI images. Automatically outputs a NIfTI, BVEC, and BVAL file for each shell.",
+      "label": "SCITRAN: DWI Split Shells",
+      "license": "MIT",
+      "maintainer": "GLU <glerma@stanford.edu>",
+      "name": "dwi-split-shells",
+      "source": "https://github.com/scitran-apps/dwi-split-shells",
+      "url": "https://github.com/scitran-apps/dwi-split-shells",
+      "version": "1.0.0"
+    }
+  ],
+  [
+    {
+      "author": "Travis Richardson",
+      "description": "Classifies Brain Vision EEG data and appends metadata attributes to the file's custom info structure within Flywheel. Input to this gear is a Flywheel packaged EEG archive (.eeg.zip) containing Brain Vision EEG data (in .vhdr format). Output is a JSON file (.metadata.json) containing metadata that will be used by the Flywheel platform to populate the input file's custom info fields.",
+      "label": "Brain Vision EEG Classifier",
+      "license": "MIT",
+      "maintainer": "Travis Richardson",
+      "name": "eeg-classifier",
+      "source": "https://github.com/flywheel-apps/eeg-classifier",
+      "url": "https://github.com/flywheel-apps/eeg-classifier",
+      "version": "1.0.0"
+    }
+  ],
+  [
+    {
+      "author": "E. Auerbach, CMRR, 2016",
+      "description": "Extract physiological log files from encoded '_PHYSIO' DICOM file generated by CMRR MB sequences (>=R015, >=VD13A)",
+      "label": "CMRR: Extract CMRR Physio",
+      "license": "Other",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "extract-cmrr-physio",
+      "source": "https://github.com/flywheel-apps/extract-cmrr-physio",
+      "url": "https://github.com/CMRR-C2P/MB",
+      "version": "0.1"
+    }
+  ],
+  [
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Sample gear to demonstrate a simple use case of outputting the name of each input file.",
+      "label": "Flywheel Example Gear",
+      "license": "MIT",
+      "maintainer": "Ryan Sanford <ryansanford@flywheel.io>",
+      "name": "flywheel-example-gear",
+      "source": "https://github.com/flywheel-apps/example-gear",
+      "url": "https://flywheel.io/",
+      "version": "0.0.4"
+    },
+    {
+      "author": "Flywheel <support@flywheel.io>",
+      "description": "Sample gear to demonstrate a simple use case of outputting the name of each input file.",
+      "label": "Flywheel Example Gear",
+      "license": "MIT",
+      "maintainer": "Ryan Sanford <ryansanford@flywheel.io>",
+      "name": "flywheel-example-gear",
+      "source": "https://github.com/flywheel-apps/example-gear",
+      "url": "https://flywheel.io/",
+      "version": "0.0.3"
+    }
+  ],
+  [
+    {
+      "author": "Poldrack Lab, Stanford University",
+      "cite": "Esteban O, Blair R, Markiewicz CJ, Berleant SL, Moodie C, Ma F, Isik AI, Erramuzpe A, Kent JD, Goncalves M, Poldrack RA, Gorgolewski KJ; poldracklab/fmriprep: 1.0.0-rc9. Zenodo; 2017. doi:10.5281/zenodo.1041020",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data",
+      "license": "Other",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "5.1.0_1.0.15"
+    },
+    {
+      "author": "Poldrack Lab, Stanford University",
+      "cite": "Esteban O, Blair R, Markiewicz CJ, Berleant SL, Moodie C, Ma F, Isik AI, Erramuzpe A, Kent JD, Goncalves M, Poldrack RA, Gorgolewski KJ; poldracklab/fmriprep: 1.0.0-rc9. Zenodo; 2017. doi:10.5281/zenodo.1041020",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data",
+      "license": "Other",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "5.0.0_1.0.6"
+    },
+    {
+      "author": "Poldrack Lab, Stanford University",
+      "cite": "Esteban O, Blair R, Markiewicz CJ, Berleant SL, Moodie C, Ma F, Isik AI, Erramuzpe A, Kent JD, Goncalves M, Poldrack RA, Gorgolewski KJ; poldracklab/fmriprep: 1.0.0-rc9. Zenodo; 2017. doi:10.5281/zenodo.1041020",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data",
+      "license": "Other",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.4.6_1.0.15"
+    },
+    {
+      "author": "Poldrack Lab, Stanford University",
+      "cite": "Esteban O, Blair R, Markiewicz CJ, Berleant SL, Moodie C, Ma F, Isik AI, Erramuzpe A, Kent JD, Goncalves M, Poldrack RA, Gorgolewski KJ; poldracklab/fmriprep: 1.0.0-rc9. Zenodo; 2017. doi:10.5281/zenodo.1041020",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data",
+      "license": "Other",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.4.5_1.0.6"
+    },
+    {
+      "author": "Poldrack Lab, Stanford University",
+      "cite": "Esteban O, Blair R, Markiewicz CJ, Berleant SL, Moodie C, Ma F, Isik AI, Erramuzpe A, Kent JD, Goncalves M, Poldrack RA, Gorgolewski KJ; poldracklab/fmriprep: 1.0.0-rc9. Zenodo; 2017. doi:10.5281/zenodo.1041020",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data",
+      "license": "Other",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.4.4_1.0.6"
+    },
+    {
+      "author": "Poldrack Lab, Stanford University",
+      "cite": "Esteban O, Blair R, Markiewicz CJ, Berleant SL, Moodie C, Ma F, Isik AI, Erramuzpe A, Kent JD, Goncalves M, Poldrack RA, Gorgolewski KJ; poldracklab/fmriprep: 1.0.0-rc9. Zenodo; 2017. doi:10.5281/zenodo.1041020",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data",
+      "license": "Other",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.4.3_1.0.6"
+    },
+    {
+      "author": "Poldrack Lab, Stanford University",
+      "cite": "Esteban O, Blair R, Markiewicz CJ, Berleant SL, Moodie C, Ma F, Isik AI, Erramuzpe A, Kent JD, Goncalves M, Poldrack RA, Gorgolewski KJ; poldracklab/fmriprep: 1.0.0-rc9. Zenodo; 2017. doi:10.5281/zenodo.1041020",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data (1.0.4)",
+      "license": "Other",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.4.2"
+    },
+    {
+      "author": "Poldrack Lab, Stanford University",
+      "cite": "Esteban O, Blair R, Markiewicz CJ, Berleant SL, Moodie C, Ma F, Isik AI, Erramuzpe A, Kent JD, Goncalves M, Poldrack RA, Gorgolewski KJ; poldracklab/fmriprep: 1.0.0-rc9. Zenodo; 2017. doi:10.5281/zenodo.1041020",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data (1.0.0-rc5)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.3.3"
+    },
+    {
+      "author": "Poldrack lab at Stanford University",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to differences in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that make running a variety of group level analyses (task based or resting state fMRI, graph theory measures, surface or volume, etc.) easy.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data (1.0.0-rc5)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.3.2"
+    },
+    {
+      "author": "Poldrack lab at Stanford University",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to differences in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that make running a variety of group level analyses (task based or resting state fMRI, graph theory measures, surface or volume, etc.) easy.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data (1.0.0-rc5)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.3"
+    },
+    {
+      "author": "Poldrack lab at Stanford University",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to differences in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that make running a variety of group level analyses (task based or resting state fMRI, graph theory measures, surface or volume, etc.) easy.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data (1.0.0-rc1)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.2"
+    },
+    {
+      "author": "Poldrack lab at Stanford University",
+      "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to differences in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that make running a variety of group level analyses (task based or resting state fMRI, graph theory measures, surface or volume, etc.) easy.",
+      "label": "fMRIPREP: A Robust Preprocessing Pipeline for fMRI Data (1.0.0-rc1)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fmriprep",
+      "source": "https://github.com/flywheel-apps/fmriprep",
+      "url": "https://github.com/poldracklab/fmriprep",
+      "version": "0.1"
+    }
+  ],
+  [
+    {
+      "author": "Laboratory for Computational Neuroimaging <freesurfer@nmr.mgh.harvard.edu>",
+      "cite": "For citation information, please visit: https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferMethodsCitation.",
+      "description": "This gear takes an anatomical NIfTI file and performs all of the FreeSurfer cortical reconstruction process. Outputs are provided in a zip file and include the entire output directory tree from Recon-All. Configuration options exist for setting the subject ID and for converting outputs to NIfTI, OBJ, and CSV. FreeSurfer is a software package for the analysis and visualization of structural and functional neuroimaging data from cross-sectional or longitudinal studies. It is developed by the Laboratory for Computational Neuroimaging at the Athinoula A. Martinos Center for Biomedical Imaging. Please see https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSoftwareLicense for license information.",
+      "label": "FreeSurfer (v6.0.0): Recon-All",
+      "license": "Other",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "freesurfer-recon-all",
+      "source": "https://github.com/scitran-apps/freesurfer-recon-all",
+      "url": "https://surfer.nmr.mgh.harvard.edu",
+      "version": "0.1.3"
+    },
+    {
+      "author": "Laboratory for Computational Neuroimaging <freesurfer@nmr.mgh.harvard.edu>",
+      "description": "This gear takes an anatomical NIfTI file and performs all of the FreeSurfer cortical reconstruction process. Outputs are provided in a zip file and include the entire output directory tree from Recon-All. Configuration options exist for setting the subject ID and for converting outputs to NIfTI, OBJ, and CSV. FreeSurfer is a software package for the analysis and visualization of structural and functional neuroimaging data from cross-sectional or longitudinal studies. It is developed by the Laboratory for Computational Neuroimaging at the Athinoula A. Martinos Center for Biomedical Imaging. Please see https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSoftwareLicense for license information.",
+      "label": "FreeSurfer (v6.0.0): Recon-All",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "freesurfer-recon-all",
+      "source": "https://github.com/scitran-apps/freesurfer-recon-all",
+      "url": "https://surfer.nmr.mgh.harvard.edu",
+      "version": "0.1.2"
+    },
+    {
+      "author": "Laboratory for Computational Neuroimaging <freesurfer@nmr.mgh.harvard.edu>",
+      "description": " This gear takes an anatomical NIfTI file and performs all of the FreeSurfer cortical reconstruction process. Outputs are provided in a zip file and include the entire output directory tree from Recon-All. Configuration options exist for setting the subejct ID and for converting outputs to NIfTI, OBJ, and CSV. FreeSurfer is a software package for the analysis and visualization of structural and functional neuroimaging data from cross-sectional or longitudinal studies. It is developed by the Laboratory for Computational Neuroimaging at the Athinoula A. Martinos Center for Biomedical Imaging. Please see https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferSoftwareLicense for license information.",
+      "label": "FreeSurfer (v6.0.0): Recon-All",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "freesurfer-recon-all",
+      "source": "https://github.com/scitran-apps/freesurfer-recon-all",
+      "url": "https://surfer.nmr.mgh.harvard.edu",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "Analysis Group, FMRIB, Oxford, UK.",
+      "description": "Brain Extraction Tool (BET2) from FMRIB Software Library (FSL) v5.0. BET (Brain Extraction Tool) deletes non-brain tissue from an image of the whole head. It can also estimate the inner and outer skull surfaces, and outer scalp surface, if you have good quality T1 and T2 input images.",
+      "label": "FSL: Brain Extraction Tool (BET2)",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "fsl-bet",
+      "source": "https://github.com/scitran-apps/fsl-bet",
+      "url": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/BET",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "Analysis Group, FMRIB, Oxford, UK.",
+      "cite": "Zhang, Y. and Brady, M. and Smith, S. Segmentation of brain MR images through a hidden Markov random field model and the expectation-maximization algorithm. IEEE Trans Med Imag, 20(1):45-57, 2001.",
+      "description": "FAST (FMRIB's Automated Segmentation Tool) segments a 3D image of the brain into different tissue types (Grey Matter, White Matter, CSF, etc.), whilst also correcting for spatial intensity variations (also known as bias field or RF inhomogeneities). The underlying method is based on a hidden Markov random field model and an associated Expectation-Maximization algorithm. The whole process is fully automated and can also produce a bias field-corrected input image and a probabilistic and/or partial volume tissue segmentation. It is robust and reliable, compared to most finite mixture model-based methods, which are sensitive to noise.",
+      "label": "FSL: FMRIB Automated Segmentation Tool (FAST4, v5.0.9)",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "fsl-fast",
+      "source": "https://github.com/scitran-apps/fsl-fast",
+      "url": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FAST",
+      "version": "0.1.1"
+    },
+    {
+      "author": "Analysis Group, FMRIB, Oxford, UK.",
+      "description": "FAST (FMRIB's Automated Segmentation Tool) segments a 3D image of the brain into different tissue types (Grey Matter, White Matter, CSF, etc.), whilst also correcting for spatial intensity variations (also known as bias field or RF inhomogeneities). The underlying method is based on a hidden Markov random field model and an associated Expectation-Maximization algorithm. The whole process is fully automated and can also produce a bias field-corrected input image and a probabilistic and/or partial volume tissue segmentation. It is robust and reliable, compared to most finite mixture model-based methods, which are sensitive to noise.",
+      "label": "FSL: FMRIB Automated Segmentation Tool (FAST4, v5.0.9)",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "fsl-fast",
+      "source": "https://github.com/scitran-apps/fsl-fast",
+      "url": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FAST",
+      "version": "0.1"
+    }
+  ],
+  [
+    {
+      "author": "Analysis Group, FMRIB, Oxford, UK.",
+      "description": "FSL's FEAT (FMRI Expert Analysis Tool). As implemented in this Gear FEAT allows for basic preprocessing of an fMRI dataset including motion correction using MCFLIRT [Jenkinson 2002]; slice-timing correction using Fourier-space time-series phase-shifting; non-brain removal using BET [Smith 2002]; spatial smoothing using a Gaussian kernel; multiplicative mean intensity normalization of the volume at each timepoint; and highpass temporal filtering (Gaussian-weighted least-squares straight line fitting), brain extraction, and registration to a standard image (MNI152).",
+      "label": "FSL: FEAT - fMRI preprocessing (v6.0)",
+      "license": "Apache-2.0",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "fsl-feat",
+      "source": "https://github.com/flywheel-apps/fsl-feat",
+      "url": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FEAT",
+      "version": "0.1.1"
+    },
+    {
+      "author": "Analysis Group, FMRIB, Oxford, UK.",
+      "description": "FSL's FEAT (FMRI Expert Analysis Tool). As implemented in this Gear FEAT allows for basic preprocessing of an fMRI dataset including motion correction using MCFLIRT [Jenkinson 2002]; slice-timing correction using Fourier-space time-series phase-shifting; non-brain removal using BET [Smith 2002]; spatial smoothing using a Gaussian kernel; multiplicative mean intensity normalization of the volume at each timepoint; and highpass temporal filtering (Gaussian-weighted least-squares straight line fitting).",
+      "label": "FSL: FEAT - fMRI preprocessing (v6.0)",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "fsl-feat",
+      "source": "https://github.com/flywheel-apps/fsl-feat",
+      "url": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FEAT",
+      "version": "0.1"
+    }
+  ],
+  [
+    {
+      "author": "Analysis Group, FMRIB, Oxford, UK.",
+      "description": "FSLMERGE (FMRIB) concatenates image files into a single output. This concatenation can be in time, or in X, Y or Z. All image dimensions (except for the one being concatenated over) must be the same in all input images. For example, this can be used to take multiple 3D files (eg as output by SPM) and create a single 4D image file. This Gear also supports the merger of diffusion data with bvec/bval files.",
+      "label": "FSL: FSLMERGE - FMRIB Merge Tool (FSL v5.0)",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "fslmerge",
+      "source": "https://github.com/scitran-apps/fslmerge",
+      "url": "https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Fslutils",
+      "version": "0.1"
+    }
+  ],
+  [
+    {
+      "author": "Richard Edden, et. al",
+      "description": "Gannet is a software package designed for the analysis of edited magnetic resonance spectroscopy (MRS) data. Gannet runs in Matlab and is available as code rather than executables, empowering users to make local changes. Gannet is designed to run without user intervention, to remove operator variance from the quantification of edited MRS data. This Gear uses a compiled version from huawu02/gannet, which is modified to support latest generation GE P-Files, and is executed using the Matlab Compiler Runtime.",
+      "label": "Gannet: Analysis of edited MRS data using Gannet version 2.1",
+      "license": "Other",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "gannet",
+      "source": "https://github.com/scitran-apps/gannet",
+      "url": "http://www.gabamrs.com/",
+      "version": "0.1.0_2.1"
+    }
+  ],
+  [
+    {
+      "author": "Human Connectome Project",
+      "description": "Runs the diffusion preprocessing steps of the Human Connectome Project Minimal Preprocessing Pipeline described in Glasser et al. 2013. This includes correction for EPI distortion (using FSL topup), correction for motion and eddy-current distortion (using FSL eddy), and registration to subject anatomy. In addition, this Gear generates a QC mosaic. This Gear requires that the HCP-Structural gear has been run - the output of which is used here. This Gear allows input of up to 4 diffusion acquisitions.",
+      "label": "HCP: Diffusion Preprocessing Pipeline",
+      "license": "Apache-2.0",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "hcp-diff",
+      "source": "https://github.com/flywheel-apps/hcp-diff",
+      "url": "https://github.com/Washington-University/Pipelines",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "Human Connectome Project",
+      "description": "Runs the functional preprocessing steps of the Human Connectome Project Minimal Preprocessing Pipeline described in Glasser et al. 2013. Currently, this Gear includes v4.0-alpha release of fMRIVolume and fMRISurface, as well as generating some helpful QC images. Note this Gear requires that the HCP structural preprocessing pipeline has been run, as the output of that pipeline must be provided as input.",
+      "label": "HCP: Functional Preprocessing Pipeline",
+      "license": "Apache-2.0",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "hcp-func",
+      "source": "https://github.com/flywheel-apps/hcp-func",
+      "url": "https://github.com/Washington-University/Pipelines",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "Human Connectome Project",
+      "cite": "(1) G. Salimi-Khorshidi, G. Douaud, C.F. Beckmann, M.F. Glasser, L. Griffanti S.M. Smith. Automatic denoising of functional MRI data: Combining independent component analysis and hierarchical fusion of classifiers. NeuroImage, 90:449-68, 2014 (2) L. Griffanti, G. Salimi-Khorshidi, C.F. Beckmann, E.J. Auerbach, G. Douaud, C.E. Sexton, E. Zsoldos, K. Ebmeier, N. Filippini, C.E. Mackay, S. Moeller, J.G. Xu, E. Yacoub, G. Baselli, K. Ugurbil, K.L. Miller, and S.M. Smith. ICA-based artefact removal and accelerated fMRI acquisition for improved resting state network imaging. NeuroImage, 95:232-47, 2014",
+      "description": "Runs ICA-FIX denoising on functional data preprocessed according to the HCP Minimal Preprocessing Pipeline. This Gear is based on scripts from the v4.0-alpha release of the ICAFIX, PostFix, and RestingStateStats pipelines.",
+      "label": "HCP: ICAFIX Functional Pipeline",
+      "license": "Apache-2.0",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "hcp-icafix",
+      "source": "https://github.com/flywheel-apps/hcp-icafix",
+      "url": "https://github.com/Washington-University/Pipelines",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "Human Connectome Project",
+      "description": "Runs the structural preprocessing steps of the Human Connectome Project Minimal Preprocessing Pipeline, described in Glasser et al. 2013. Currently this includes v4.0-alpha release of PreFreeSurfer, FreeSurfer, and PostFreeSurfer pipelines. This Gear also generates some helpful QC images.",
+      "label": "HCP: Structural Preprocessing Pipeline",
+      "license": "Apache-2.0",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "hcp-struct",
+      "source": "https://github.com/flywheel-apps/hcp-struct",
+      "url": "https://github.com/Washington-University/Pipelines",
+      "version": "0.1.3"
+    },
+    {
+      "author": "Human Connectome Project",
+      "description": "Run HCP structural pipeline: PreFreeSurfer, FreeSurfer, PostFreeSurfer, and generate QC images",
+      "label": "HCP Structural Pipeline",
+      "license": "Apache-2.0",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "hcp-struct",
+      "source": "https://github.com/flywheel-apps/hcp-struct",
+      "url": "https://github.com/Washington-University/Pipelines",
+      "version": "0.1.2"
+    },
+    {
+      "author": "Human Connectome Project",
+      "description": "Run HCP structural pipeline: PreFreeSurfer, FreeSurfer, PostFreeSurfer, and generate QC images",
+      "label": "HCP Structural Pipeline",
+      "license": "Apache-2.0",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "hcp-struct",
+      "source": "https://github.com/flywheel-apps/hcp-struct",
+      "url": "https://github.com/Washington-University/Pipelines",
+      "version": "0.1.1"
+    }
+  ],
+  [
+    {
+      "author": "Schneider Lab, University of Pittsburgh",
+      "description": "Computes a transformation of multi-shell diffusion weighted data to a set of Spherical Harmonic coefficients and outputs 4D Spherical Harmonic coefficient data. This is a first step in the Schneider Lab HDFT diffusion reconstruction process. See: Pathak, S. K., Fissell, C., Krishnaswamy, D., Aggarwal, S., Hachey, R., Schneider, W. (2015). Diffusion reconstruction by combining spherical harmonics and generalized q-sampling imaging. ISMRM, Toronto, Canada.",
+      "label": "HDFT Subsampled Diffusion Reconstruction",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "hdft-subsampled-recon",
+      "source": "https://github.com/schlabhdft/ALDIT",
+      "url": "http://www.lrdc.pitt.edu/schneiderlab/",
+      "version": "0.0.1"
+    }
+  ],
+  [
+    {
+      "author": "Garikoitz Lerma",
+      "description": "Automated segmentation of the human hippocampus along its longitudinal axis. This gear will run an image segmentation algorithm on an anatomical image and generate a measurement of hippocampal volume by segment.",
+      "label": "Hippocampus Segmentation and Volume Measurement (DEMO)",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <michaelperry@flywheel.io>",
+      "name": "hippovol-demo",
+      "source": "https://github.com/flywheel-apps/hippovol-demo",
+      "url": "https://github.com/garikoitz/hippovol",
+      "version": "0.0.1"
+    }
+  ],
+  [
+    {
+      "author": "Michael Hansen <michael.hansen@nih.gov>",
+      "description": "Convert Siemens raw MR data to ISMRMRD format",
+      "label": "ISMRMRD: Siemens MR Raw to ISMRMRD Converter (DEMO)",
+      "license": "Other",
+      "maintainer": "Jennifer Reiter <jenniferreiter@invenshure.com>",
+      "name": "ismrm-rd-demo",
+      "source": "https://github.com/flywheel-apps/ismrm-rd-demo",
+      "url": "https://ismrmrd.github.io/",
+      "version": "0.0.2"
+    },
+    {
+      "author": "Michael Hansen <michael.hansen@nih.gov>",
+      "description": "Convert Siemens MR Raw to ISMRMRD format",
+      "label": "ISMRMRD: Siemens MR Raw to ISMRMRD Converter (DEMO)",
+      "license": "Other",
+      "maintainer": "Jennifer Reiter <jenniferreiter@invenshure.com>",
+      "name": "ismrm-rd-demo",
+      "source": "https://github.com/flywheel-apps/ismrm-rd-demo",
+      "url": "https://ismrmrd.github.io/",
+      "version": "0.0.1"
+    }
+  ],
+  [
+    {
+      "author": "Amanda Bischoff-Grethe, et al.",
+      "description": "MBIRN Defacer for structural MRI (mri-deface v1.22). MRI_DEFACE (v1.22) from FreeSurfer is a tool for removing identifiable facial features (eyes, nose, and mouth). This algorithm locates the subject's facial features and removes them without disturbing brain tissue. The algorithm was devised to work on T1-weighted anatomical MR data; it consumes NIfTI, DICOM, or MGH formats and produces a defaced anatomical image in either NIfTI or MGH format. Please cite http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2408762/ if using this tool in your work.",
+      "label": "FreeSurfer: MBIRN Defacer for structural MRI (mri-deface v1.22)",
+      "license": "GPL-2.0",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mri-deface",
+      "source": "https://github.com/flywheel-apps/mri-deface",
+      "url": "https://surfer.nmr.mgh.harvard.edu/fswiki/mri_deface",
+      "version": "0.2"
+    },
+    {
+      "author": "Amanda Bischoff-Grethe, et al.",
+      "description": "This Gear contains an algorithm (mri-deface, from FreeSurfer) for removing identifiable facial features (eyes, nose, and mouth). This algorithm locates the subject's facial features and removes them without disturbing brain tissue. The algorithm was devised to work on T1-weighted structural MRI; it produces a defaced structural image, and an image of the applied mask. Please cite http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2408762/ if using this gear in your work.",
+      "label": "FreeSurfer: MBIRN Defacer for structural MRI (mri-deface v1.22)",
+      "license": "GPL-2.0",
+      "maintainer": "Jennifer Reiter <jenniferreiter@invenshure.com>",
+      "name": "mri-deface",
+      "source": "https://github.com/flywheel-apps/mri-deface",
+      "url": "https://surfer.nmr.mgh.harvard.edu/fswiki/mri_deface",
+      "version": "0.1.2"
+    },
+    {
+      "author": "Amanda Bischoff-Grethe, et al.",
+      "description": "This Gear contains an algorithm (mri-deface, from FreeSurfer) for removing identifiable facial features (eyes, nose, and mouth). This algorithm locates the subject's facial features and removes them without disturbing brain tissue. The algorithm was devised to work on T1-weighted structural MRI; it produces a defaced structural image, and an image of the applied mask. Please cite http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2408762/ if using this gear in your work.",
+      "label": "FreeSurfer: MBIRN Defacer for structural MRI (mri-deface v1.22)",
+      "license": "GPL-2.0",
+      "maintainer": "Jennifer Reiter <jenniferreiter@invenshure.com>",
+      "name": "mri-deface",
+      "source": "https://github.com/flywheel-apps/mri-deface",
+      "url": "https://surfer.nmr.mgh.harvard.edu/fswiki/mri_deface",
+      "version": "0.1.1"
+    }
+  ],
+  [
+    {
+      "author": "Oscar Esteban, Krzysztof F. Gorgolewski. Poldrack Lab, Psychology, CRN, Stanford University",
+      "cite": "Esteban O, Birman D, Schaer M, Koyejo OO, Poldrack RA, Gorgolewski KJ; MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites; PLOS ONE 12(9):e0184661; doi:10.1371/journal.pone.0184661.",
+      "description": "MRIQC (v0.10.1) extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data. Note, this gear only supports the generation of individual scan reports; group reports are not generated. Also note, for the auto-detection config option to work for this gear, the follow gears must be run beforehand: (1) dicom-mr-classifier then (2) dcm2niix (version 0.3.1 or higher).",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI ",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.6.0"
+    },
+    {
+      "author": "Oscar Esteban, Krzysztof F. Gorgolewski. Poldrack Lab, Psychology, CRN, Stanford University",
+      "cite": "Esteban O, Birman D, Schaer M, Koyejo OO, Poldrack RA, Gorgolewski KJ; MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites; PLOS ONE 12(9):e0184661; doi:10.1371/journal.pone.0184661.",
+      "description": "MRIQC (v0.10.1) extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data. Note, this gear only supports the generation of individual scan reports; group reports are not generated. Also note, for the auto-detection config option to work for this gear, the follow gears must be run beforehand: (1) dicom-mr-classifier then (2) dcm2niix (version 0.3.1 or higher).",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI (v0.10.1)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.5.1"
+    },
+    {
+      "author": "Oscar Esteban, Krzysztof F. Gorgolewski. Poldrack Lab, Psychology, CRN, Stanford University",
+      "cite": "Esteban O, Birman D, Schaer M, Koyejo OO, Poldrack RA, Gorgolewski KJ; MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites; PLOS ONE 12(9):e0184661; doi:10.1371/journal.pone.0184661.",
+      "description": "MRIQC (v0.10.1) extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data. Note, this gear only supports the generation of individual scan reports; group reports are not generated. Also note, for the auto-detection config option to work for this gear, the follow gears must be run beforehand: (1) dicom-mr-classifier then (2) dcm2niix (version 0.3.1 or higher).",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI (v0.10.1)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.5.0"
+    },
+    {
+      "author": "Oscar Esteban, Krzysztof F. Gorgolewski. Poldrack Lab, Psychology, CRN, Stanford University",
+      "cite": "Esteban O, Birman D, Schaer M, Koyejo OO, Poldrack RA, Gorgolewski KJ; MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites; PLOS ONE 12(9):e0184661; doi:10.1371/journal.pone.0184661.",
+      "description": "MRIQC (v0.10.1) extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data. Note, this gear only supports the generation of individual scan reports; group reports are not generated. Also note, for the auto-detection config option to work for this gear, the follow gears must be run beforehand: (1) dicom-mr-classifier then (2) dcm2niix (version 0.3.1 or higher).",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI (v0.10.1)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.4.1"
+    },
+    {
+      "author": "Oscar Esteban, Krzysztof F. Gorgolewski. Poldrack Lab, Psychology, CRN, Stanford University",
+      "cite": "Esteban O, Birman D, Schaer M, Koyejo OO, Poldrack RA, Gorgolewski KJ; MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites; PLOS ONE 12(9):e0184661; doi:10.1371/journal.pone.0184661.",
+      "description": "MRIQC (v0.10.1) extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data. Note, this gear only supports the generation of individual scan reports; group reports are not generated. Also note, for the auto-detection config option to work for this gear, the follow gears must be run beforehand: (1) dicom-mr-classifier then (2) dcm2niix (version 0.3.1 or higher).",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI (v0.10.1)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.4.0"
+    },
+    {
+      "author": "Oscar Esteban, Krzysztof F. Gorgolewski. Poldrack Lab, Psychology, CRN, Stanford University",
+      "cite": "Esteban O, Birman D, Schaer M, Koyejo OO, Poldrack RA, Gorgolewski KJ; MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites; PLOS ONE 12(9):e0184661; doi:10.1371/journal.pone.0184661.",
+      "description": "MRIQC extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data. Note, this gear only supports the generation of individual scan reports; group reports are not generated. Also note, for the auto-detection config option to work for this gear, the follow gears must be run beforehand: (1) dicom-mr-classifier then (2) dcm2niix (version 0.3.1 or higher).",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI (v0.9.4)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.3.3"
+    },
+    {
+      "author": "Oscar Esteban, Krzysztof F. Gorgolewski. Poldrack Lab, Psychology, CRN, Stanford University",
+      "cite": "Esteban O, Birman D, Schaer M, Koyejo OO, Poldrack RA, Gorgolewski KJ; MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites; PLOS ONE 12(9):e0184661; doi:10.1371/journal.pone.0184661.",
+      "description": "MRIQC extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data. Note, this gear only supports the generation of individual scan reports; group reports are not generated.",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI (v0.9.4)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.3.2"
+    },
+    {
+      "author": "Oscar Esteban and Krzysztof F. Gorgolewski. Stanford University",
+      "description": "The MRIQC package provides a series of image processing workflows to extract and compute a series of NR (no-reference), IQMs (image quality metrics) to be used in QAPs (quality assessment protocols) for MRI (magnetic resonance imaging). This tool extracts a series of IQMs from structural or functional MRI data. Note, this gear only supports the generation of individual scan reports; group reports are not generated.",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI (v0.9.4)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.3.1"
+    },
+    {
+      "author": "Oscar Esteban and Krzysztof F. Gorgolewski. Stanford University",
+      "description": "The MRIQC package provides a series of image processing workflows to extract and compute a series of NR (no-reference), IQMs (image quality metrics) to be used in QAPs (quality assessment protocols) for MRI (magnetic resonance imaging). This tool extracts a series of IQMs from structural or functional MRI data. Note, this gear only supports the generation of individual scan reports; group reports are not generated.",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI (v0.9.4)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.3"
+    },
+    {
+      "author": "Oscar Esteban and Krzysztof F. Gorgolewski. Stanford University",
+      "description": "The MRIQC package provides a series of image processing workflows to extract and compute a series of NR (no-reference), IQMs (image quality metrics) to be used in QAPs (quality assessment protocols) for MRI (magnetic resonance imaging). This tool extracts a series of IQMs from structural or functional MRI data. Note, this gear only supports the generation of individual scan reports; group reports are not generated.",
+      "label": "MRIQC: No-reference image quality metrics for quality assessment of MRI (v0.9.4)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Flywheel <support@flywheel.io>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.2"
+    },
+    {
+      "author": "Poldrack Lab at Stanford University",
+      "description": "The package provides a series of image processing workflows to extract and compute a series of NR (no-reference), IQMs (image quality metrics) to be used in QAPs (quality assessment protocols) for MRI (magnetic resonance imaging). This tool extracts a series of IQMs from structural or functional MRI data. Note, this gear only supports the generation of individual scan reports; group reports are not generated.",
+      "label": "MRIQC: NR-IQMs for Functional MRI (mriqc v0.9.0-0)",
+      "license": "BSD-3-Clause",
+      "maintainer": "Jennifer Reiter <jenniferreiter@invenshure.com>",
+      "name": "mriqc",
+      "source": "https://github.com/flywheel-apps/mriqc",
+      "url": "https://github.com/poldracklab/mriqc",
+      "version": "0.1"
+    }
+  ],
+  [
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from PAR/REC MR data generated by Philips MR scanners.",
+      "label": "SciTran PAR/REC MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "parrec-mr-classifier",
+      "source": "https://github.com/scitran-apps/parrec-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.0.5"
+    },
+    {
+      "author": "Michael Perry <lmperry@stanford.edu>",
+      "description": "Extract metadata from PAR/REC MR data Philips",
+      "label": "SciTran PAR/REC MR Classifier",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "parrec-mr-classifier",
+      "source": "https://github.com/scitran-apps/parrec-mr-classifier",
+      "url": "https://scitran.github.io",
+      "version": "0.0.3"
+    }
+  ],
+  [
+    {
+      "author": "Souheil Inati, Michael Hansen, et al.",
+      "description": "The Philips to ISMRM-RD Convertor (philips_to_ismrmrd v0.1.0, ismrmrd v1.3.2) is used to convert data from Philips Raw file (.raw) to ISMRM-RD raw data format (.h5).",
+      "label": "Philips to ISMRM-RD Converter (philips_to_ismrmrd v0.1.0, ismrmrd v1.3.2)",
+      "license": "Other",
+      "maintainer": "Jennifer Reiter <jenniferreiter@invenshure.com>",
+      "name": "philips-to-ismrmrd",
+      "source": "https://github.com/flywheel-apps/philips_to_ismrmrd",
+      "url": "https://github.com/ismrmrd/philips_to_ismrmrd",
+      "version": "0.1"
+    }
+  ],
+  [
+    {
+      "author": "DTIPrep (Francois Budin <fbudin@unc.edu>)",
+      "description": "DTIPrep performs a Study-specific Protocol based automatic pipeline for DWI/DTI quality control and preparation. This is both a GUI and command line tool. The configurable pipeline includes image/diffusion information check, padding/Cropping of data, slice-wise, interlace-wise and gradient-wise intensity and motion check, head motion and Eddy current artifact correction, and DTI computing. Version 1.2.4",
+      "label": "DTIPREP: DWI Quality Assurance Report",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "qa-dtiprep",
+      "source": "https://github.com/scitran-apps/qa-dtiprep",
+      "url": "https://www.nitrc.org/projects/dtiprep",
+      "version": "0.0.2"
+    }
+  ],
+  [
+    {
+      "author": "Robert F. Dougherty",
+      "description": "Run QA metrics (displacement, signal spikes) to create a quality assurance report (png) for an fMRI NIfTI using modified CNI/NIMS code from @rfdougherty.",
+      "label": "Quality Assurance Report (fMRI)",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "qa-report-fmri",
+      "source": "https://github.com/scitran-apps/qa-report-fmri",
+      "url": "https://github.com/cni/nims/blob/master/nimsproc/qa_report.py",
+      "version": "0.1.7"
+    }
+  ],
+  [
+    {
+      "author": "FreeSurfer <freesurfer@nmr.mgh.harvard.edu>",
+      "description": "FreeSurfer provides many anatomical analysis tools, including: representation of the cortical surface between white and gray matter, representation of the pial surface, segmentation of white matter from the rest of the brain, skull stripping, B1 bias field correction, nonlinear registration of the cortical surface of an individual with an stereotaxic atlas, labeling of regions of the cortical surface, statistical analysis of group morphometry differences, and labeling of subcortical brain structures and much more. This Gear ouputs a subset of the recon-all pipeline outputs, simply for demonstration.",
+      "label": "FreeSurfer (v5.3.0): RECON-ALL (DEMO)",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "reconall-demo",
+      "source": "https://github.com/flywheel-apps/reconall-demo",
+      "url": "https://surfer.nmr.mgh.harvard.edu/fswiki/recon-all",
+      "version": "0.0.3"
+    }
+  ],
+  [
+    {
+      "author": "Noah C. Benson <nben@nyu.edu>",
+      "description": "Runs FreeSurfer's RECON-ALL and applies the V1, V2, and V3 anatomical template of retinotopy from Benson et al. (2014) as well as the ROI template of Wang et al. (2015) to the output images using the Neuropythy neuroscience library for Python by Noah C. Benson. * Note that this Gear does not use the original version of the Benson et al. template, but rather an updated version that has also been published on the website indicated in the original paper. If using this Gear in your work, please cite: Benson NC, Butt OH, Datta R, Radoeva PD, Brainard DH, Aguirre GK (2012) The retinotopic organization of striate cortex is well predicted by surface topology. Curr Biol22(21):2081-5.",
+      "label": "NEUROPYTHY: Retinotopy Template Generation (Benson, et. al.)",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "retinotopy-templates",
+      "source": "https://github.com/scitran-apps/retinotopy-templates",
+      "url": "https://github.com/noahbenson/neuropythy",
+      "version": "0.1.0"
+    }
+  ],
+  [
+    {
+      "author": "SciTran Team",
+      "description": "Creates a montage (zip, or png) from a NIfTI file.",
+      "label": "SciTran: NIfTI Montage Creation Tool",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "scitran-nifti-montage",
+      "source": "https://github.com/scitran-apps/nifti-montage",
+      "url": "https://github.com/scitran-apps/nifti-montage",
+      "version": "1.4.0"
+    },
+    {
+      "author": "SciTran Team",
+      "description": "Creates a montage (zip, or png) from a NIfTI file.",
+      "label": "SciTran: NIfTI Montage Creation Tool",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "scitran-nifti-montage",
+      "source": "https://github.com/scitran-apps/nifti-montage",
+      "url": "https://github.com/scitran-apps/nifti-montage",
+      "version": "1.3"
+    },
+    {
+      "author": "SciTran Team",
+      "description": "Creates a montage (zip, or png) from a NIfTI file.",
+      "label": "SciTran: NIfTI Montage Creation Tool",
+      "license": "Apache-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "scitran-nifti-montage",
+      "source": "https://github.com/scitran-apps/nifti-montage",
+      "url": "https://github.com/scitran-apps/nifti-montage",
+      "version": "1.2"
+    }
+  ],
+  [
+    {
+      "author": "Souheil Inati, Michael Hansen, et al.",
+      "description": "The Siemens to ISMRM-RD Converter (siemens_to_ismrmrd v1.0.1, ismrmrd v1.3.2) is used to convert data from Siemens raw data format (.dat) to ISMRM-RD raw data format (.h5).",
+      "label": "Siemens to ISMRM-RD Converter (siemens_to_ismrmrd v1.0.1, ismrmrd v1.3.2)",
+      "license": "Other",
+      "maintainer": "Jennifer Reiter <jenniferreiter@invenshure.com>",
+      "name": "siemens-to-ismrmrd",
+      "source": "https://github.com/flywheel-apps/siemens_to_ismrmrd",
+      "url": "https://github.com/ismrmrd/siemens_to_ismrmrd",
+      "version": "0.1"
+    }
+  ],
+  [
+    {
+      "author": "Ryan Chamberlain <ryanchamberlain@flywheel.io>",
+      "description": "Automated segmentation of the human hippocampus along its longitudinal axis. This gear will run an image segmentation algorithm on an anatomical image and generate a measurement of hippocampal volume by segment.",
+      "label": "Spectroscopy (DEMO)",
+      "license": "MIT",
+      "maintainer": "Ryan Sanford <ryansanford@flywheel.io>",
+      "name": "spectroscopy-demo",
+      "source": "https://github.com/flywheel-apps/spectroscopy-demo",
+      "url": "https://github.com/flywheel-apps/spectroscopy-demo",
+      "version": "0.0.1"
+    }
+  ],
+  [
+    {
+      "author": "Chunlei Liu, Ph.D <STI.Suite.MRI@gmail.com>",
+      "description": "Quantitative Susceptibility Mapping (QSM) and Susceptibility Tensor Imaging (STI) are two recently developed imaging methods for quantifying tissue’s magnetic property. Magnetic susceptibility offers a new contrast for high-resolution anatomical imaging; it further provides important information on tissue’s chemical composition, especially myelin and iron, and white matter microstructures of the brain.",
+      "label": "STI SUITE: Quantitative Susceptibility Mapping Pipeline (v2.2 DEMO) ",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "sti-qsm-demo",
+      "source": "https://github.com/flywheel-apps",
+      "url": "https://people.eecs.berkeley.edu/~chunlei.liu",
+      "version": "0.1.1"
+    },
+    {
+      "author": "Chunlei Liu, Ph.D <STI.Suite.MRI@gmail.com>",
+      "description": "Quantitative Susceptibility Mapping (QSM) and Susceptibility Tensor Imaging (STI) are two recently developed imaging methods for quantifying tissue’s magnetic property. Magnetic susceptibility offers a new contrast for high-resolution anatomical imaging; it further provides important information on tissue’s chemical composition, especially myelin and iron, and white matter microstructures of the brain.",
+      "label": "STI SUITE: Quantitative Susceptibility Mapping Pipeline (v2.2 DEMO) ",
+      "license": "GPL-2.0",
+      "maintainer": "Michael Perry <lmperry@stanford.edu>",
+      "name": "sti-qsm-demo",
+      "source": "https://github.com/flywheel-apps",
+      "url": "http://people.duke.edu/~cl160",
+      "version": "0.1.0"
+    }
+  ]
+]
